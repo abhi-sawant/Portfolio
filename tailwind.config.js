@@ -13,6 +13,22 @@ module.exports = {
       sans: ['Readex Pro', 'sans-serif'],
     },
     extend: {
+      gridRowEnd: {
+        8: '8',
+        9: '9',
+        10: '10',
+        11: '11',
+        12: '12',
+        13: '13',
+      },
+      gridRowStart: {
+        8: '8',
+        9: '9',
+        10: '10',
+        11: '11',
+        12: '12',
+        13: '13',
+      },
       backgroundImage: {
         'hero-bg': "url('/hero-bg.svg')",
       },

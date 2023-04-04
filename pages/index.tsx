@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Readex_Pro } from 'next/font/google';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import Timeline from '@/components/Timeline';
 
 const readex = Readex_Pro({ subsets: ['latin'] });
 
@@ -39,6 +40,7 @@ export default function Home() {
       <Header />
       <main className={`${readex.className} text-slate-700 dark:text-slate-100`}>
         <Hero />
+        <Timeline />
       </main>
     </>
   );
