@@ -35,7 +35,7 @@ interface ColoredProps {
 }
 
 function Colored(props: ColoredProps) {
-  return <span className='text-blue-600 dark:text-blue-400'>{props.children}</span>;
+  return <span className='text-blue-500 dark:text-blue-400'>{props.children}</span>;
 }
 
 export const timelineData = [
@@ -84,7 +84,7 @@ export const timelineData = [
       </>
     ),
     location: 'Ahmedabad, Gujarat',
-    year: 'Feb 2022',
+    year: 'February 2022',
   },
   {
     title: (
