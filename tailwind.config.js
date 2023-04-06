@@ -40,7 +40,7 @@ module.exports = {
         },
       },
       animation: {
-        bganim: 'bganim 60s linear infinite',
+        bganim: 'bganim 600s linear infinite',
       },
     },
   },
