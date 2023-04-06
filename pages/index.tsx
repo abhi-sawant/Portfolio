@@ -4,6 +4,8 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Timeline from '@/components/Timeline';
 import Work from '@/components/Work';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 const readex = Readex_Pro({ subsets: ['latin'] });
 
@@ -43,6 +45,8 @@ export default function Home() {
         <Hero />
         <Timeline />
         <Work />
+        <Contact />
+        <Footer />
       </main>
     </>
   );

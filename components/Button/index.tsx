@@ -5,10 +5,11 @@ interface buttonProps {
   children: string;
   disabled?: boolean;
   target?: string;
+  type?: 'button' | 'submit' | 'reset' | undefined;
 }
 
 function Button(props: buttonProps) {
-  const { className, disabled = false, size = 'normal', href, target, children } = props;
+  const { className, disabled = false, size = 'normal', href, target, type = 'button', children } = props;
   let calcSize, calcClass;
   if (size === 'normal') {
     calcSize = 'text-lg px-10 py-3';
@@ -29,7 +30,7 @@ function Button(props: buttonProps) {
     );
   } else {
     return (
-      <button className={finalClass} disabled={disabled}>
+      <button className={finalClass} type={type} disabled={disabled}>
         {children}
       </button>
     );
