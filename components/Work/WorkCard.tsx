@@ -12,14 +12,18 @@ interface WorkCardProps {
 function WorkCard(props: WorkCardProps) {
   const { image, title, description, link } = props;
   return (
-    <div>
+    <div className='flex flex-col rounded border-[3px] border-[rgba(0,0,0,0.1)] p-4 shadow-[5px_5px_0_0_rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.1)] dark:shadow-[5px_5px_0_0_rgba(255,255,255,0.1)]'>
       <div>
-        <Image src={image} alt={title} />
+        <Image className='rounded' src={image} alt={title} />
       </div>
-      <div>
-        <h3>{title}</h3>
-        <p>{description}</p>
-        <Button href={link}>Visit</Button>
+      <div className='h-100 mt-4 flex flex-grow flex-col'>
+        <h3 className='mb-2 text-center text-xl font-bold'>{title}</h3>
+        <p className='mb-4 text-sm text-slate-500 dark:text-slate-400'>{description}</p>
+        <div className='mt-auto text-center'>
+          <Button size='small' target='_blank' href={link}>
+            Visit
+          </Button>
+        </div>
       </div>
     </div>
   );
