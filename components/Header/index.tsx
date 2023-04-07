@@ -25,13 +25,13 @@ function Header() {
       <nav className='mt-4 rounded border-[3px] border-[rgba(0,0,0,0.1)] py-4 shadow-[5px_5px_0_0_rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.1)] dark:shadow-[5px_5px_0_0_rgba(255,255,255,0.1)]'>
         <ul className='flex flex-wrap items-center justify-center gap-5 gap-y-2 md:gap-8'>
           <li>
-            <HeaderLink href='/'>About</HeaderLink>
+            <HeaderLink href='#about'>About</HeaderLink>
           </li>
           <li>
-            <HeaderLink href='/'>Work</HeaderLink>
+            <HeaderLink href='#work'>Work</HeaderLink>
           </li>
           <li>
-            <HeaderLink href='/'>Contact</HeaderLink>
+            <HeaderLink href='#contact'>Contact</HeaderLink>
           </li>
           <li>
             <HeaderLink href='/'>Blog</HeaderLink>

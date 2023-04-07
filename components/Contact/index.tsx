@@ -4,7 +4,7 @@ import SectionTitle from '../SectionTitle';
 
 function Contact() {
   return (
-    <section className='py-8 lg:py-16'>
+    <section className='py-8 lg:py-16' id='contact'>
       <div className='container mx-auto px-4'>
         <SectionTitle>Contact</SectionTitle>
         <form action='mail.php' method='post' className='mx-auto grid max-w-[900px] gap-6'>

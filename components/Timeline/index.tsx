@@ -4,7 +4,7 @@ import { timelineData } from './timelinedata';
 
 function Timeline() {
   return (
-    <section className='py-8 lg:py-16'>
+    <section className='py-8 lg:py-16' id='about'>
       <div className='container mx-auto px-4'>
         <SectionTitle>Timeline</SectionTitle>
         <div className='grid gap-y-8 lg:grid-cols-2'>
