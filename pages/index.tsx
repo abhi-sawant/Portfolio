@@ -24,7 +24,7 @@ export default function Home() {
         />
         <meta
           name='keywords'
-          content='Abhishek, Abhishek Sawant, HTML, CSS, JavaScript, Bootstrap, Tailwind, Materialize, Bulma, SASS, SCSS, PostCSS, ReactJS, React, AngularJS, Angular, MaterialUI, Bulma, ChakraUI, Svelte, SvelteKit, Frontend, Web Development, Web Design, Development, Developer, Web Developer, Frontend Developer. UI/UX, Website Design, Website Development, Website Developer'
+          content='Abhishek, Abhishek Sawant, HTML, CSS, JavaScript, Bootstrap, Tailwind, Materialize, Bulma, SASS, SCSS, PostCSS, ReactJS, React, AngularJS, Angular, MaterialUI, Bulma, Ant Design, Mantine, ChakraUI, Svelte, SvelteKit, Frontend, Web Development, Web Design, Development, Developer, Web Developer, Frontend Developer. UI/UX, Website Design, Website Development, Website Developer'
         />
         <meta property='og:title' content='Abhishek Sawant | Curious Learner' />
         <meta
@@ -34,8 +34,8 @@ export default function Home() {
         <meta property='og:type' content='website' />
         <meta property='og:site_name' content='Abhishek Sawant | Curious Learner' />
         <meta property='og:url' content='http://abhisawant.me/' />
-        <meta name='og:image' content='http://abhisawant.me/favicon.ico' />
-        <meta name='twitter:image' content='http://abhisawant.me/favicon.ico' />
+        <meta name='og:image' content='http://abhisawant.me/logo.png' />
+        <meta name='twitter:image' content='http://abhisawant.me/logo.png' />
         <meta name='twitter:image:alt' content='Brand Logo' />
         <meta name='twitter:card' content='summary_large_image' />
         <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
