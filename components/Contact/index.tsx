@@ -1,8 +1,9 @@
 import Button from '../Button';
-import Link from 'next/link';
 import SectionTitle from '../SectionTitle';
 
 function Contact() {
+  const inputClass =
+    'rounded border-[3px] border-[rgba(0,0,0,0.1)] bg-slate-100 p-4 shadow-[5px_5px_0_0_rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.1)] dark:bg-slate-900 dark:shadow-[5px_5px_0_0_rgba(255,255,255,0.1)]';
   return (
     <section className='py-8 lg:py-16' id='contact'>
       <div className='container mx-auto px-4'>
@@ -13,7 +14,7 @@ function Contact() {
               Your Name
             </label>
             <input
-              className=' rounded border-[3px] border-[rgba(0,0,0,0.1)] bg-slate-100 p-4 shadow-[5px_5px_0_0_rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.1)] dark:bg-slate-900 dark:shadow-[5px_5px_0_0_rgba(255,255,255,0.1)]'
+              className={inputClass}
               type='text'
               name='visitorName'
               placeholder='Richard Hendricks'
@@ -26,7 +27,7 @@ function Contact() {
               Your email address
             </label>
             <input
-              className=' rounded border-[3px] border-[rgba(0,0,0,0.1)] bg-slate-100 p-4 shadow-[5px_5px_0_0_rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.1)] dark:bg-slate-900 dark:shadow-[5px_5px_0_0_rgba(255,255,255,0.1)]'
+              className={inputClass}
               type='email'
               name='visitorEmail'
               placeholder='richard@piedpiper.com'
@@ -39,7 +40,7 @@ function Contact() {
               Subject
             </label>
             <input
-              className=' rounded border-[3px] border-[rgba(0,0,0,0.1)] bg-slate-100 p-4 shadow-[5px_5px_0_0_rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.1)] dark:bg-slate-900 dark:shadow-[5px_5px_0_0_rgba(255,255,255,0.1)]'
+              className={inputClass}
               type='text'
               name='visitorSubject'
               placeholder='Something important'
@@ -52,7 +53,7 @@ function Contact() {
               Message
             </label>
             <textarea
-              className=' rounded border-[3px] border-[rgba(0,0,0,0.1)] bg-slate-100 p-4 shadow-[5px_5px_0_0_rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.1)] dark:bg-slate-900 dark:shadow-[5px_5px_0_0_rgba(255,255,255,0.1)]'
+              className={inputClass}
               name='visitorMessage'
               id='visitorMessage'
               placeholder='A story I would to like tell...'
